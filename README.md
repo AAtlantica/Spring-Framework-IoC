@@ -53,7 +53,7 @@ https://medium.com/@ricardo.zelaya/principio-de-inversi%C3%B3n-de-dependencias-d
 
 ## Estructura del proyecto:
 
-- [Estructura](https://github.com/AAtlantica/SOLID/blob/main/conceptos.md)  
+- [Estructura](https://github.com/AAtlantica/Spring-Framework-IoC/blob/main/estructura.md)  
 
 
 
