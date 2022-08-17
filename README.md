@@ -51,7 +51,9 @@ http://xurxodev.com/profundizando-en-la-inversion-de-dependencia/
 
 https://medium.com/@ricardo.zelaya/principio-de-inversi%C3%B3n-de-dependencias-dependency-inversion-2c48cd6dc0f8
 
+## Estructura del proyecto:
 
+- [Estructura](https://github.com/AAtlantica/SOLID/blob/main/conceptos.md)  
 
 
 
