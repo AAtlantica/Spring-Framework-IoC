@@ -1,17 +1,21 @@
 package com.example;
 
+import org.springframework.context.annotation.AnnotationConfigApplicationContext;
+
 public class Main {
 
     public static void main(String[] args) {
-        PersonaDTO personaDTO = new PersonaDTO();
+
+        AnnotationConfigApplicationContext applicationContext = new AnnotationConfigApplicationContext(AppConfig.class);
+        PersonaDTO personaDTO = (PersonaDTO) applicationContext.getBean("personaDTO");
+        PersonaMapper personaMapper = ( PersonaMapper) applicationContext.getBean("personaMapper");
+
         personaDTO.setNombre("AdrianDTO");
 
-        PersonaEntity personaEntity = new PersonaEntity();
-
-        PersonaMapper personaMapper = new PersonaMapper(personaDTO, personaEntity);
         PersonaEntity persona = personaMapper.toEntity();
 
         System.out.println(persona);
 
     }
+
 }
