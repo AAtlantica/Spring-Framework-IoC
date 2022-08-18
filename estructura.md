@@ -21,3 +21,5 @@
   - implementación de funciones de negocios. 
   - coordinación de varios usuarios. 
   - administración de recursos externos como, por ejemplo, bases de datos.
+
+![Estructura](https://github.com/AAtlantica/Spring-Framework-IoC/blob/main/src/main/resources/static/Estructura.png)
